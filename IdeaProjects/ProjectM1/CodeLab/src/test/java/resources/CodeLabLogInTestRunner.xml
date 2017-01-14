@@ -1,0 +1,18 @@
+<?xml version="1.0" encoding="UTF-8" ?>
+<!DOCTYPE suite SYSTEM "http://testng.org/testng-1.0.dtd">
+<suite name="CodeLab Student LogIn">
+
+    <parameter name="userName" value="Ali"/>
+    <parameter name="accessKey" value=""/>
+    <parameter name="os" value="Windows"/>
+    <parameter name="url" value="https://codelab3.turingscraft.com/codelab/jsp/login1.jsp"/>
+    <parameter name="browserName" value="Chrome"/>
+    <parameter name="browserVersion" value="55"/>
+
+    <test name="CodeLab LogIn">
+        <classes>
+            <class name="home.CodeLabLogIn"/>
+        </classes>
+    </test>
+
+</suite>
